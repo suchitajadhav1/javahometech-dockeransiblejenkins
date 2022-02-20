@@ -1,34 +1,18 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app>
-  <breakfast_menu>
-   <food>
-       <name>Belgian Waffles</name>
-       <price>$5.95</price>
-       <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
-       <calories>650</calories> </food>
-   <food>
-       <name>Strawberry Belgian Waffles</name>
-       <price>$7.95</price>
-       <description>Light Belgian waffles covered with strawberries and whipped cream</description>
-       <calories>900</calories> </food>
-   <food>
-       <name>Berry-Berry Belgian Waffles</name>
-       <price>$8.95</price>
-       <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
-       <calories>900</calories> </food>
-   <food>
-       <name>French Toast</name>
-       <price>$4.50</price>
-       <description>Thick slices made from our homemade sourdough bread</description>
-       <calories>600</calories> </food>
-   <food>
-       <name>Homestyle Breakfast</name>
-       <price>$6.95</price>
-       <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
-       <calories>950</calories> </food>
-</breakfast_menu>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <display-name>Webapp</display-name>
+  <!--
+  <servlet>
+  <servlet-name>HelloWorldExample</servlet-name>
+  <servlet-class>com.example.HelloWorldExample</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>HelloWorldExample</servlet-name>
+  <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  -->
 </web-app>
+
